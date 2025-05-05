@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Andrew’s Pizza Info</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍕 Welcome to Andrew’s Pizza Info Site</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#types">Types of Pizza</a>
+      <a href="#fun">Fun Fact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Pizza</h2>
+      <p>Pizza is a popular Italian dish made with a flatbread base, tomato sauce, cheese, and a variety of toppings. It's loved worldwide and comes in many styles and flavors.</p>
+    </section>
+
+    <section id="types">
+      <h2>Popular Pizza Types</h2>
+      <ul>
+        <li><strong>Margherita:</strong> Tomato, mozzarella, basil</li>
+        <li><strong>Pepperoni:</strong> Tomato, cheese, and pepperoni slices</li>
+        <li><strong>Veggie:</strong> Bell peppers, onions, olives, mushrooms</li>
+      </ul>
+    </section>
+
+    <section id="fun">
+      <h2>Pizza Fun Fact</h2>
+      <p>Click the button to reveal a fun pizza fact!</p>
+      <button onclick="showFact()">Reveal Fact</button>
+      <p id="fact"></p>
+    </section>
+
+    <section id="contact">
+      <h2>Want More Info?</h2>
+      <form id="infoForm">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" required>
+        <button type="submit">Submit</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
